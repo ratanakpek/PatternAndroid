@@ -10,10 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".factory.MainActivity" />
-        <activity android:name=".abstractfactory.AbstractFactoryActivity"></activity>
-        <activity android:name=".builder.BuilderActivity">
-        </activity>
+        <activity android:name=".abstractfactory.AbstractFactoryActivity" />
+        <activity android:name=".builder.BuilderActivity"></activity>
         <activity android:name=".singleton.SingletonActivity">
+        </activity>
+        <activity android:name=".strategy.StrategyActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
