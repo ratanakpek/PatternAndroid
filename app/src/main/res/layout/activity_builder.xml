@@ -6,4 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".builder.BuilderActivity">
 
+    <include layout="@layout/drawer_main_layout"/>
+
 </android.support.constraint.ConstraintLayout>
