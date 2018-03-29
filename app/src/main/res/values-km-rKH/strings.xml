@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DesignPatternDemo</string>
+    <string name="card">កាត</string>
+    <string name="cash">លុយ</string>
+    <string name="coupon">កូពន</string>
+    <string name="love">ស្រលាញ់</string>
+</resources>

@@ -11,14 +11,21 @@
         android:theme="@style/AppTheme">
         <activity android:name=".factory.MainActivity" />
         <activity android:name=".abstractfactory.AbstractFactoryActivity" />
-        <activity android:name=".builder.BuilderActivity"></activity>
-        <activity android:name=".singleton.SingletonActivity">
-        </activity>
-        <activity android:name=".strategy.StrategyActivity">
+        <activity android:name=".builder.BuilderActivity" />
+        <activity android:name=".singleton.SingletonActivity" />
+        <activity android:name=".strategy.StrategyActivity" />
+        <activity android:name=".facade.FacadeActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".adapter.AdatperActivity"></activity>
+        <activity android:name=".bridge.BridgeActivity">
+
+        </activity>
+        <activity android:name=".bridge.tutorialpoint.BridgeTutoiralActivity">
+
         </activity>
     </application>
 
