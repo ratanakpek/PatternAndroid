@@ -14,18 +14,18 @@
         <activity android:name=".builder.BuilderActivity" />
         <activity android:name=".singleton.SingletonActivity" />
         <activity android:name=".strategy.StrategyActivity" />
-        <activity android:name=".facade.FacadeActivity" >
+        <activity android:name=".facade.FacadeActivity">
+
+        </activity>
+        <activity android:name=".adapter.AdatperActivity" />
+        <activity android:name=".bridge.BridgeActivity"></activity>
+        <activity android:name=".bridge.tutorialpoint.BridgeTutoiralActivity"></activity>
+        <activity android:name=".criteria.CriteriaActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".adapter.AdatperActivity"></activity>
-        <activity android:name=".bridge.BridgeActivity">
-
-        </activity>
-        <activity android:name=".bridge.tutorialpoint.BridgeTutoiralActivity">
-
         </activity>
     </application>
 
