@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="@dimen/item_image_size"
+        android:layout_height="@dimen/item_image_size"
+        android:layout_gravity="center_vertical|end"
+        android:layout_margin="@dimen/item_image_margin"
+        android:scaleType="fitXY"
+        android:src="@drawable/apple" />
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:paddingBottom="@dimen/item_name_paddingBottom"
+        android:paddingLeft="@dimen/item_name_paddingStart"
+        android:text="There are some cheese!"
+        android:textSize="@dimen/item_name_textSize" />
+
+    <Button
+        android:id="@+id/action_add"
+        style="?attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|bottom"
+        android:layout_marginRight="@dimen/action_marginEnd"
+        android:minWidth="64dp"
+        android:padding="@dimen/action_padding"
+        android:paddingRight="@dimen/action_paddingEnd"
+        android:paddingLeft="@dimen/action_paddingStart"
+        android:text="ADD"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+</LinearLayout>
