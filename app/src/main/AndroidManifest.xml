@@ -18,15 +18,18 @@
         <activity android:name=".adapter.AdatperActivity" />
         <activity android:name=".bridge.BridgeActivity" />
         <activity android:name=".bridge.tutorialpoint.BridgeTutoiralActivity" />
-        <activity android:name=".criteria.CriteriaActivity"></activity>
+        <activity android:name=".criteria.CriteriaActivity" />
         <activity android:name=".other.select.SelectActivity">
+
+        </activity>
+        <activity android:name=".other.select.CheckOutActivity" />
+        <activity android:name=".other.layoutbuilder.LayoutBuilder">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".other.select.CheckOutActivity"></activity>
     </application>
 
 </manifest>
